@@ -66,9 +66,11 @@ p{
     background-color:  hsl(25, 97%, 53%);
 }
 
+
 #submit-btn:active{
     background-color: rgba(240, 248, 255, 0.733);
 }
+
 
 .attribution{
     position: absolute;
