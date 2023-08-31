@@ -81,3 +81,26 @@ p{
     transition: .3s;
     background-color:hsl(25, 97%, 53%) ;
 }
+
+.rate{
+    position: relative;
+    top: 15px;
+    left: 120px;
+    width: 60%;
+    height: 35px;
+    border: solid transparent;
+    border-radius: 30px;
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(213, 24%, 25%);
+} 
+
+#svg{
+    position: relative;
+    left: 35%;
+    top: 3%;
+}
+
+#thanku{
+    position: relative;
+    left: 35%;
+}
