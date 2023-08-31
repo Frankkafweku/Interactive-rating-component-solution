@@ -1,0 +1,76 @@
+body{
+    position: relative;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    
+}
+h1{
+    color: aliceblue;
+    margin-left: 30px;
+}
+p{
+    margin-left: 30px;
+    font-size: 18px;
+    color: hsl(217, 12%, 63%);
+    font-family: Overpass;
+}
+
+.main{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    width: 38%;
+    height: 60vh;
+    background-color: hsl(213, 19%, 18%);
+    border: solid transparent;
+    border-radius: 45px;
+    padding: 10px 30px 5px 10px;
+}
+.num-divs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(213, 24%, 25%);
+    width: 50px;
+    height: 50px;
+    border: solid transparent;
+    border-radius: 50%;
+    transition: .5s;
+}
+
+.num-divs:hover{
+    background-color:hsl(217, 12%, 63%);
+    
+}
+
+.rates{
+    position: relative;
+    top: 80px;
+    left: 40px;
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#submit-btn{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    width: 80%;
+    height: 50px;
+    border: solid transparent;
+    border-radius: 30px;
+    color: aliceblue;
+    background-color:  hsl(25, 97%, 53%);
+}
+
+#submit-btn:active{
+    background-color: rgba(240, 248, 255, 0.733);
+}
+
+.attribution{
+    position: absolute;
+    bottom: 0;
+}
