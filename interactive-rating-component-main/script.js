@@ -11,9 +11,10 @@ const submitBtn = document.getElementById("submit-btn")
 
 // varible for the span containing how the user has rated.
 
-const span = document.getElementById("span")
+let span = document.getElementById("span")
 
-
+// variable for the error message
+const errorMsg = document.getElementById("error")
 
 
 let rateBtn = document.getElementsByClassName("num-divs")
@@ -23,6 +24,7 @@ for (let i=0; i<rateBtn.length; i++){
     rateBtn[i].addEventListener('click', ()=>{
       rated = rateBtn[i].value;
       rateBtn[i].classList.add("button-clicked");
+      span.innerHTML=rated
       
     })
 }
@@ -34,8 +36,12 @@ function clicked(){
     
     if(rated > 0){
         window.location.href="succsess.html"
+        
     } else{
-        alert("rate chikala")
+        
+        errorMsg.innerText = "Please select a rating!"
+        
+        
     }
     
     

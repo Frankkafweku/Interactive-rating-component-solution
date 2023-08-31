@@ -104,3 +104,12 @@ p{
     position: relative;
     left: 35%;
 }
+
+#error{
+    position: absolute;
+    top: 65%;
+    left: 120px;
+    transition: .3s;
+}
+
+
